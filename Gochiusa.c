@@ -36,7 +36,7 @@ int compare_array(int cf_array[])
 
 int main()
 {
-  char* output_str[STR_NUMBER] = {"ã‚ãï¼¾ï½", "ã“ã“ã‚ãŒ", "ã´ã‚‡ã‚“ã´ã‚‡ã‚“", "ã™ã‚‹ã‚“ã˜ã‚ƒï¼¾ï½"};
+  char* output_str[STR_NUMBER] = {"‚ ‚ŸO`", "‚±‚±‚ë‚ª", "‚Ò‚å‚ñ‚Ò‚å‚ñ", "‚·‚é‚ñ‚¶‚áO`"};
   int char_number = 0, count = 0;
 
   init_genrand((unsigned)time(NULL));
@@ -46,7 +46,7 @@ int main()
     printf("%s", output_str[char_number]);
     count++;
   }
-  printf("\n\nã‚ãï¼¾ï½ã“ã“ã‚ãŒ %d å›ã´ã‚‡ã‚“ã´ã‚‡ã‚“ã—ãŸã‚“ã˜ã‚ƒï¼¾ï½\n", count);
+  printf("\n\n‚ ‚ŸO`‚±‚±‚ë‚ª %d ‰ñ‚Ò‚å‚ñ‚Ò‚å‚ñ‚µ‚½‚ñ‚¶‚áO`\n", count);
 
   return 0;
 }
